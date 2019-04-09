@@ -1,0 +1,150 @@
+<view>
+
+<view class='header'>
+<image src="{{header}}"> </image>
+</view>
+
+<view class='hello'>你好，流浪</view>
+
+<view class='items'>
+
+<view class='item' bindtap='myinfo'>
+<image src="{{host}}/web10/static/ico/my_ico1.png"></image>
+<text>完善资料</text>
+</view>
+
+
+<view class='item' bindtap='myorder'>
+<image src="{{host}}/web10/static/ico/my_ico2.png" ></image>
+<text>订单信息</text>
+</view>
+
+<view class='item'>
+<image src="{{host}}/web10/static/ico/my_ico3.png"></image>
+<text>我的评论</text>
+</view>
+
+<view class='item'>
+<image src="{{host}}/web10/static/ico/my_ico4.png"></image>
+<text>浏览历史</text>
+</view>
+
+<view class='item'>
+<image src="{{host}}/web10/static/ico/my_ico5.png"></image>
+<text>客服服务</text>
+</view>
+</view>
+
+<view class='tools'>
+<view class='item'>
+<button open-type="contact"> </button>
+<view class='tools-item-img'><image src="{{host}}/web10/static/ico/my_ico11.png"></image></view>
+<view>客服服务</view>
+
+</view>
+
+<view class='item'>
+<view class='tools-item-img'><image src="{{host}}/web10/static/ico/my_ico12.png"></image></view>
+<view>售后服务</view>
+</view>
+<view class='item'>
+<view class='tools-item-img'><image src="{{host}}/web10/static/ico/my_ico13.png"></image></view>
+<view>联系电话</view>
+</view>
+</view>
+
+<!-- 精品推荐 -->
+<view class='recommend'>
+
+<view class='recommend-title'>
+<image src="https://www.huachengzhubao.com/syweb10/static/ico/crown.png"></image>
+<text>精品推荐</text>
+
+</view>
+
+<view class='recommend-body'>
+
+ <view class='hostsale-body'>
+        <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+
+        <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+
+
+        <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+        <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+                <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+                <view class='hostsale-item'>
+          <view class='hostsale-item-box'>
+
+            <view class='hostsale-item-img'>
+              <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+            </view>
+            <view class='hostsale-item-title'>健康日历2019：丁香医生(团购...</view>
+            <view class='hostsale-item-price'>￥
+              <text>44</text>.56</view>
+
+          </view>
+        </view>
+
+      </view>
+
+</view>
+
+</view>
+
+</view>

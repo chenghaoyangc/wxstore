@@ -1,0 +1,5 @@
+/* component/star.wxss */
+.star-red-25 {
+  width: 25rpx;
+  height: 25rpx;
+}

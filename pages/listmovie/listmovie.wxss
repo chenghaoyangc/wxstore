@@ -1,0 +1,56 @@
+.search .search-movie {
+  background: #FFDFEC;
+}
+
+.class-box {
+  width: 705rpx;
+  margin: 0 auto;
+  margin-bottom: 28rpx;
+}
+
+.title {
+  height: 28rpx;
+  line-height: 28rpx;
+  font-size: 24rpx;
+  color: #4F4F4F;
+
+  border-left: #FF0000 7rpx solid;
+  padding-left: 10rpx;
+}
+
+.list {
+  padding-left: 17rpx;
+  font-size: 24rpx;
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list text {
+  display: block;
+  border: #CCC 1px solid;
+  border-radius: 30rpx;
+  padding: 5rpx 20rpx;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+
+.list .active-class {
+  color: red;
+  border: #FF0000 1px solid;
+}
+
+.country {
+  border-left: #99CC00 7rpx solid;
+}
+
+.active-country {
+   color: #99CC00;
+  border: #99CC00 1px solid;
+}
+
+.class-item {
+  margin-top: 30rpx;
+}
+
+

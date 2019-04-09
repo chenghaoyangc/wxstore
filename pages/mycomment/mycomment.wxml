@@ -1,0 +1,55 @@
+<view class='mycomment'>
+
+  <view class='mycomment-item'>
+
+    <view class='mycomment-item-box'>
+
+      <view class='product-name'>我是城市的草地，你是深山的苔藓；我们似乎很近，却不知道如何相见</view>
+      <view class='stars'>
+      <view class='stars5'>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="../../static/ico/star-gray.png"></image>
+              </view>
+      </view>
+      <view class='editer'>
+      <textarea value='《不将就》你问我为什么顽固而专一，天下太大总有人比你更合适，其实我觉得这样不值，可没选择方式，你一出场别人都显得不过如此'></textarea>
+      </view>
+      <view class='button-sure'><button>确定</button></view>
+
+    </view>
+  </view>
+
+   <view class='mycomment-item'>
+
+    <view class='mycomment-item-box'>
+
+      <view class='product-name'>也许喜欢怀念你，多于看见你 ，我也许喜欢想象你，多于得到你</view>
+      <view class='stars'>
+      <view class='stars5'>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+                <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+              </view>
+      </view>
+      <view class='editer'>
+      <textarea value='《不将就》你问我为什么顽固而专一，天下太大总有人比你更合适，其实我觉得这样不值，可没选择方式，你一出场别人都显得不过如此'></textarea>
+      </view>
+      <view class='button-sure'><button>确定</button></view>
+
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+

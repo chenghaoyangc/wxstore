@@ -1,0 +1,62 @@
+<view class='listbook'>
+
+ <!-- 搜索 -->
+  <view class='search'>
+    <view class='search-box search-movie'>
+
+      <view class='ico'>
+        <image src='../../static/ico/search.png'></image>
+      </view>
+
+      <view class='search-text'>
+        <text>搜索全部商品</text>
+      </view>
+
+    </view>
+  </view>
+
+<!-- 分类 -->
+<view class='class-book'>
+<view class='{{activeHealth}}' >健康养生</view>
+<view class='{{activeYounth}}'>青春文学</view>
+<view class='{{activePeople}}'>人物传记</view>
+<view class='{{activeChild}}'>儿童图书</view>
+<view class='{{activeScience}}'>科学技术</view>
+<view class='{{activehostsale}}'>热销图书</view>
+<view class='{{activeNine}}'>9.9元包邮</view>
+<view>新书上架</view>
+</view>
+
+<!-- 1111 -->
+<block wx:for="{{list}}">
+<view class='movie-item' data-id='{{item.id}}' bindtap='gobookdetail'>
+    <view class='movie-box'>
+
+      <view class='movie-poster'>
+        <image src="{{myhost}}{{item.coverurl}}"></image>
+      </view>
+
+      <view class='movie-info'>
+
+        <view class='p-title'>{{item.bookname}} </view>
+        <view class='p-dirctor'>作者：{{item.author}} </view>
+        <view class='p-writer'>出版社：{{item.public}}</view>
+        <view class='p-class'>出版时间：{{item.date}}</view>
+        <view class='p-role'>图书简介:{{item.descript}}</view>
+        <view class='p-price'>￥<text>{{item.print_i}}</text>.{{item.print_t}}</view>
+
+        <view class='p-comment'>
+         <view >
+         <star starnums='3'></star>
+         </view>
+          <view class='counts'>{{item.comment_count}}条评论</view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+  </block>
+<!-- 222222 -->
+
+</view>

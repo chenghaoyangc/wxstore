@@ -1,0 +1,61 @@
+page{
+  background: #f1f1f1;
+}
+
+.mycomment-item{
+  background: #fff;
+  margin-bottom: 60rpx;
+}
+
+.mycomment-item-box{
+  padding: 34rpx;
+}
+.product-name{
+  height: 80rpx;
+  overflow: hidden;
+  font-size: 26rpx;
+  color: #000;
+  border-bottom: #999 1px dotted;
+}
+
+.stars{
+  text-align: center;
+  margin: 20rpx 0;
+}
+
+.stars image{
+  width:40rpx;
+  height: 40rpx;
+}
+
+
+.star-red-25 {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.editer textarea{
+  width: 660rpx;
+  height: 150rpx;
+ border: #999 1px solid;
+ padding: 10rpx;
+ font-size: 25rpx;
+}
+
+.button-sure{
+  text-align: center;
+}
+
+.button-sure button{
+  width: 109rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  background: #d81e06;
+  color: #fff;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+
+
+
+

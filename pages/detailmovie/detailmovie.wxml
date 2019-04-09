@@ -1,0 +1,182 @@
+<view class='view'>
+
+  <view class='comm-box' >
+
+    <view class='view-title'>
+      <view class='title-name'>{{datas.moviename}}</view>
+      <view class='add-favorite'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        <text>加入收藏</text>
+      </view>
+
+    </view>
+    <view class='view-body'>
+    {{datas.descript}}
+    </view>
+<view class='huaxu'>
+
+    <view class='title-name title-n'>花絮欣赏</view>
+    <view class="huaxu-body">
+  <video 
+    id="myVideo"
+    src="{{datas.movierurl}}"
+    controls
+  ></video>
+
+</view>
+</view>
+    <!-- 会员单价 -->
+    <view class='title-box'>
+      <view class='title-name title-n'>单片会员价</view>
+      <view class='price'>
+        ￥<text>{{datas.print_int}}</text>.{{datas.print_dec}}
+</view>
+      <view class='title-banquan'>注：（版权所有归腾讯公司,未经许可，不得转之）</view>
+    </view>
+    <!-- 按钮 -->
+    <view class='box-movie'>
+      <view class='watch-movie'>观赏正片</view>
+      <view class='watch-movie load-movie'>下载影片</view>
+    </view>
+
+  </view>
+
+</view>
+
+<view class='com-comment'>
+  <!-- 相关介绍 -->
+  <view class='comm-box'>
+    <view class='comm-info-name'>相关信息</view>
+  </view>
+
+  <view class='commonstyle author'>导演
+    <text class="introduce colo">{{datas.director}}</text>
+    <view class="viewproduct">查看作品</view>
+  </view>
+  <view class='commonstyle public'>主演
+    <text class="introduce colo">{{datas.roles}}</text>
+    <view class="viewproduct">查看作品</view>
+  </view>
+  <view class='commonstyle class'>类型
+    <text class="introduce colo">{{datas.class_style}}</text>
+  </view>
+  <view class='commonstyle country'>国家
+    <text class="introduce colo">{{datas.class_country}}</text>
+  </view>
+  <view class='commonstyle time'>片长
+    <text class="introduce colo">{{datas.longs}}分钟</text>
+  </view>
+</view>
+
+
+<!-- 商品评论 -->
+<view class='com-comment'>
+
+  <view class='comm-box'>
+    <view class='comm-info-name .yellow-line'>商品评论</view>
+  </view>
+
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>周***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='comment-conent'>这一路上走走停停,顺着少年漂流的痕迹,迈出车站的前一刻,竟有些犹豫,不禁笑这近乡情怯,仍无可避免,而长野的天,依旧那么暖,风吹起了从前</view>
+
+  </view>
+  <!-- 2222 -->
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>王***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='comment-conent'>从前初识这世间,万般流连,看着天边似在眼前,也甘愿赴汤蹈火去走它一遍,如今走过这世间,万般流连,翻过岁月不同侧脸,措不及防闯入你的笑颜</view>
+
+  </view>
+
+  <!-- 333 -->
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>张***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class='comment-conent'>我曾难自拔于世界之大,也沉溺于其中梦话,不得真假 不做挣扎 ，不惧笑话,我曾将青春翻涌成她,也曾指尖弹出盛夏,心之所动， 且就随缘去吧,逆着光行走 ，任风吹雨打,短短的路走走停停,也有了几分的距离,不知抚摸的是故事 ，还是段心情,也许期待的不过是， 与时间为敌,再次看到你,微凉晨光里,笑的很甜蜜</view>
+  </view>
+
+<!-- /// -->
+  <!-- 垫高底部 -->
+  <view style='height:100rpx;'></view>
+
+  <!-- 底部 -->
+  <view class='footer'>
+    <view class='hsc f1'>
+      <view class='hsc-home' bindtap='goHome'>
+        <view class='hsc-home-img'>
+          <image src='../../static/ico/tabbar_home_gray.png'></image>
+        </view>
+        <view class='hsc-home-text'>首页</view>
+      </view>
+
+      <view class='hsc-share'>
+        <button></button>
+        <view class='share-ico'>
+          <image src='../../static/ico/share.png'></image>
+        </view>
+        <view class='share-text'>分享</view>
+
+      </view>
+
+      <view class='hsc-cart' bindtap='gocart'>
+      <view class='hsc-cart-img'>
+          <image src='../../static/ico/tabbar_cart_gray.png'></image>
+        </view>
+        <view class='hsc-cart-text'>购物车</view>
+        <view class='hsc-cart-count'>{{cartCounts}}</view>
+      </view>
+    </view>
+
+    <view class='addtocart fr' bindtap='add3cart'>购物车</view>
+
+    <view class='bynow fr'>立即购买</view>
+  </view>
+<!-- //// -->
+
+</view>

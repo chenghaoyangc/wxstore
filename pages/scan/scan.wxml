@@ -1,0 +1,25 @@
+<view class="scan">
+
+<view class='myheader'>
+
+<image src='https://www.huachengzhubao.com/syweb10/static/images/header.png'> </image>
+
+</view>
+
+
+
+<view class='myinfo'>
+
+<view>你好,张三</view>
+<view>请对准条形码扫码商品</view>
+
+</view>
+
+
+
+<view class='scan-button'>
+<image src='https://www.huachengzhubao.com/syweb10/static/images/scanbutton.png' bindtap='scan'> </image>
+</view>
+
+
+</view>

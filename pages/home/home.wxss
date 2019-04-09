@@ -1,0 +1,334 @@
+
+
+/* 轮播 */
+
+swiper {
+  height: 250rpx;
+  margin-top: 16rpx;
+  text-align: center;
+}
+
+.swiper swiper-item image {
+  width: 100%;
+  height: 250rpx;
+}
+
+.swiper .slide-image {
+  width: 32px;
+  height: 32px;
+  margin-top: 50rpx;
+}
+
+/* 菜单 */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav .nav-item {
+  width: 150rpx;
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.nav .nav-item .nav-item-img {
+  height: 90rpx;
+}
+
+.nav .nav-item .nav-item-img image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.nav .nav-item .nav-item-text {
+  font-size: 23rpx;
+  color: #5d5d5d;
+}
+
+/* 畅销图书TOP6 */
+
+.hostsale {
+  background-color: #fbbebd;
+  margin-top: 28rpx;
+}
+
+.hostsale .hostsale-box {
+  padding: 26rpx;
+}
+
+.hostsale-title {
+  color: #fff;
+  font-size: 24rpx;
+  margin-bottom: 24rpx;
+}
+
+.hostsale-title .hostsale-title-more {
+  float: right;
+}
+
+
+/* 快讯 */
+
+.news {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 95rpx;
+  background: -webkit-linear-gradient(#fbbebd, #9cc); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#fbbebd, #9cc); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#fbbebd, #9cc); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#fbbebd, #9cc); /* 标准的语法 */
+}
+
+.news-ico image {
+  width: 90rpx;
+  height: 34rpx;
+  margin-left: 20px;
+}
+
+.news-box {
+  width: 700rpx;
+  height: 70rpx;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 12rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.news-body {
+  padding-left: 20rpx;
+}
+
+.news-body swiper {
+  height: 70rpx;
+  width: 560rpx;
+  font-size: 24rpx;
+  text-align: left;
+  color: #666;
+  line-height: 50rpx;
+}
+
+/* 特价包邮 */
+
+.baoyou .hostsale {
+  margin-top: 0;
+  background-color: #9cc;
+}
+
+.baoyou .hostsale .hostsale-item {
+  position: relative;
+}
+
+.baoyou .hostsale .hostsale-item .ico99 {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  width: 74rpx;
+  height: 74rpx;
+}
+
+/* 渐变 */
+
+.liner {
+  height: 35rpx;
+  background: -webkit-linear-gradient(#9cc, #fff); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#9cc, #fff); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#9cc, #fff); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#9cc, #fff); /* 标准的语法 */
+}
+
+/* 五星好评 */
+
+.stars-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars-item-title-more {
+  margin-right: 50rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.stars-item-title-name {
+  width: 318rpx;
+  height: 51rpx;
+  line-height: 51rpx;
+  border-bottom-right-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-color-purple {
+  background: -webkit-linear-gradient(30deg, #d4abfc, #b065f9); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(30deg, #d4abfc, #b065f9); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(30deg, #d4abfc, #b065f9); /* Firefox 3.6 - 15 */
+  background: linear-gradient(30deg, #d4abfc, #b065f9); /* 标准的语法 */
+}
+
+.title-color-yellow {
+  background: -webkit-linear-gradient(30deg, #ffc876, #f90); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(30deg, #ffc876, #f90); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(30deg, #ffc876, #f90); /* Firefox 3.6 - 15 */
+  background: linear-gradient(30deg, #ffc876, #f90); /* 标准的语法 */
+}
+
+.title-color-red {
+  background: -webkit-linear-gradient(30deg, #ff9a94, #ff3b30); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(30deg, #ff9a94, #ff3b30); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(30deg, #ff9a94, #ff3b30); /* Firefox 3.6 - 15 */
+  background: linear-gradient(30deg, #ff9a94, #ff3b30); /* 标准的语法 */
+}
+
+.stars-item-title-name image {
+  width: 38rpx;
+  height: 36rpx;
+  margin-left: 20rpx;
+}
+
+.stars-item-title-name text {
+  margin-right: 22rpx;
+}
+
+.star-red-25 {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.stars-body-box {
+  padding: 20rpx 50rpx 40rpx 34rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stars-title {
+  width: 430rpx;
+  height: 75rpx;
+  overflow: hidden;
+  font-size: 30rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.stars-comment {
+  display: flex;
+  align-items: center;
+  width: 300rpx;
+  margin: 17rpx 0;
+}
+
+.comment-counts {
+  color: #acb4bd;
+  font-size: 22rpx;
+  margin-left: 20rpx;
+}
+
+.stars-price {
+  color: #d81e06;
+  font-size: 22rpx;
+}
+
+.stars-price text {
+  font-size: 40rpx;
+}
+
+.stars-item-body-right image {
+  width: 157rpx;
+  height: 216rpx;
+}
+
+
+/* 流行音乐榜 */
+.hostsale2 {
+
+  background-color: #AEE800;
+}
+
+.hostsale2 .hostsale-box2 {
+  padding: 26rpx;
+}
+
+.hostsale-title2 {
+  color: #fff;
+  font-size: 24rpx;
+  margin-bottom: 24rpx;
+}
+
+.hostsale-title2 .hostsale-title-more2 {
+  float: right;
+}
+
+.hostsale-body2 {
+ 
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.hostsale-item2 {
+  display: inline-block;
+  margin: 6rpx;
+  width: 220rpx;
+  height: 345rpx;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 14rpx;
+ text-indent: 10rpx;
+}
+
+.hostsale-item2 .hostsale-item-img2 {
+  margin-top: 16rpx;
+}
+
+.hostsale-item2 .hostsale-item-img2 image {
+  width: 194rpx;
+  height: 194rpx;
+}
+
+.hostsale-item2 .hostsale-item-title2 {
+  text-align: center;
+  font-size: 24rpx;
+  color: #484848;
+}
+
+.hostsale-item2 .hostsale-item-price2 {
+   text-align: center;
+  color: #FF6108;
+  font-size: 24rpx;
+ 
+}
+.stars-comment2{
+  text-align: center;
+}
+
+.hostsale-item2 .hostsale-item-price2 text {
+  font-size: 32rpx;
+}
+
+
+  /* <!-- 电影TOP6 --> */
+.hostsale3 {
+  background-color: #FFAF37;
+}
+
+.hostsale3 .hostsale-box2 {
+  padding: 26rpx;
+}
+
+ /* <!-- 渐变 --> */
+.liner2 {
+  height: 35rpx;
+  background: -webkit-linear-gradient(#AEE800, #FFAF37); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#AEE800, #FFAF37); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#AEE800, #FFAF37); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#AEE800, #FFAF37); /* 标准的语法 */
+}
+
+/* 11111 */

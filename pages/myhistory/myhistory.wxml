@@ -1,0 +1,23 @@
+<view class='myhistory'>
+
+
+
+<view class='myhistory-box'>
+<view class='myhistory-time'><text>日期:2018-12-04 8:30:23</text></view>
+<view class='myhistory-intro'><text>健康日历2019：丁丁医生（团购电话：0105799328</text></view>
+</view>
+
+<view class='myhistory-box'>
+<view class='myhistory-time'><text>日期:2018-12-04 8:30:23</text></view>
+<view class='myhistory-intro'><text>健康日历2019：丁丁医生（团购电话：0105799328</text></view>
+</view>
+
+<view class='myhistory-box'>
+<view class='myhistory-time'><text>日期:2018-12-04 8:30:23</text></view>
+<view class='myhistory-intro'><text>健康日历2019：丁丁医生（团购电话：0105799328</text></view>
+</view>
+
+
+
+
+</view>

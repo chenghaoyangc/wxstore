@@ -1,0 +1,109 @@
+.contact {
+  height: 214rpx;
+  background: url('http://www.huachengzhubao.com/syweb10/static/images/paybg.gif') repeat-x;
+  background-size: contain;
+}
+
+.contact-box {
+  padding: 35rpx 27rpx;
+}
+
+.who image {
+  width: 20rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+
+.who text, .tel {
+  font-size: 26rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.whotel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  font-size: 23rpx;
+  color: #666;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+}
+
+.info {
+  width: 700rpx;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title image {
+  width: 28rpx;
+  height: 28rpx;
+}
+
+.title text {
+  font-size: 26rpx;
+  color: #000;
+  font-weight: bold;
+  margin-left: 10rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.content {
+  border-top: #dbdbdb 1px solid;
+  border-bottom: #dbdbdb 1px solid;
+}
+
+.list image {
+  width: 100rpx;
+  height: 120rpx;
+  margin: 20rpx;
+}
+
+.totalprice {
+  padding-bottom: 28rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50rpx;
+}
+
+.submit text {
+  font-size: 26rpx;
+  margin-right: 30rpx;
+}
+
+.submit text:first-child {
+  color: #666;
+}
+
+.submit text:nth-child(2) {
+  color: #e53e30;
+  font-weight: bold;
+}
+
+.submit-order {
+  width: 188rpx;
+  height: 76rpx;
+  background: #e53e30;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 76rpx;
+  margin-right: 27rpx;
+  color: #fff;
+}

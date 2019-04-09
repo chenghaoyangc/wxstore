@@ -1,0 +1,127 @@
+<view class='detailbook'>
+  <!-- 封面 -->
+  <view class="poster">
+    <!-- 轮播 -->
+    <view class="poster-box">
+      <view class='swiper'>
+        <swiper indicator-dots="{{datas.indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+         
+              <image src="{{myhost}}{{item.coverurl}}" class="show-image" mode='aspectFill' />
+
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+    </view>
+  </view>
+
+  <!-- 简介 -->
+  <view class='view'>
+
+    <view class='comm-box'>
+
+      <view class='view-title'>
+        <view class='title-name'>{{datas.bookname}}</view>
+        <view class='add-favorite'>
+          <image src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <text>加入收藏</text>
+        </view>
+
+      </view>
+      <view class='view-body'>
+<rich-text nodes="{{datas.descript}}" bindtap="tap"></rich-text>
+      </view>
+    </view>
+
+    <!-- 价格 -->
+    <view class='price'>￥
+      <text>{{datas.print_int}}</text>.{{datas.print_dec}}</view>
+
+    <!-- 相关介绍 -->
+    <view class='comm-box'>
+      <view class='comm-info-name'>相关信息</view>
+    </view>
+
+    <view class='commonstyle author'>作者:{{datas.author}}
+      <view class="viewproduct" id='{{datas.author}}' bindtap='viewworks'>查看作品</view>
+    </view>
+    <view class='commonstyle public'>出版社:{{datas.public}}
+     <view class="viewproduct" id='{{datas.author}}' bindtap='viewworks'>查看作品</view>
+    </view>
+    <view class='commonstyle class'>分类:{{datas.cname}}</view>
+
+    </view>
+
+
+    <!-- 评论 -->
+   <view class='com-comment'>
+
+      <view class='comm-box'>
+        <view class='comm-info-name .yellow-line'>商品评论</view>
+      </view>
+
+<block wx:if="{{commentlist.length<1}}">
+<view>暂无评论</view>
+</block>
+<block wx:else>
+      <view class='comment-item' wx:for="{{commentlist}}">
+        <view class='comment-author'>
+
+          <view class='comment-header'>
+            <image src="{{myhost}}{{item.header}}"></image>
+          </view>
+          <view class='author-stars'>
+            <view class='author-name'>{{item.uname}}</view>
+            <view class='stars5 comment-stars'>
+     <star starnums='{{item.stars}}'></star>
+            </view>
+          </view>
+        </view>
+
+        <view class='comment-conent'>{{item.notes}}</view>
+
+      </view>
+</block>
+</view>
+
+
+
+<!-- 垫高底部 -->
+  <view style='height:100rpx;'></view>
+
+  <!-- 底部 -->
+  <view class='footer'>
+    <view class='hsc f1'>
+      <view class='hsc-home' bindtap='goHome'>
+        <view class='hsc-home-img'>
+          <image src='../../static/ico/tabbar_home_gray.png'></image>
+        </view>
+        <view class='hsc-home-text'>首页</view>
+      </view>
+
+      <view class='hsc-share'>
+        <button></button>
+        <view class='share-ico'>
+          <image src='../../static/ico/share.png'></image>
+        </view>
+        <view class='share-text'>分享</view>
+
+      </view>
+
+      <view class='hsc-cart' bindtap='gocart'>
+      <view class='hsc-cart-img'>
+          <image src='../../static/ico/tabbar_cart_gray.png'></image>
+        </view>
+        <view class='hsc-cart-text'>购物车</view>
+        <view class='hsc-cart-count'>{{cartCounts}}</view>
+      </view>
+    </view>
+
+    <view class='addtocart fr' bindtap='cart'>购物车</view>
+
+    <view class='bynow fr' >立即购买</view>
+  </view>
+<!-- /// -->
+</view>

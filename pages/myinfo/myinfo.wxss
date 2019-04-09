@@ -1,0 +1,116 @@
+page{
+  background-color: #f1f1f1;
+}
+.myinfo{
+  padding-left: 22rpx;
+  padding-right: 22rpx;
+}
+
+.myinfo-body,.myinfo-submit{
+  background-color: #FFF;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+}
+
+.myinfo-item{
+  height: 65rpx;
+   line-height: 65rpx;
+  border-bottom: #d8d8d8 1px solid;
+  font-size: 26rpx;
+  color: #666;
+  text-indent:10rpx;
+  margin-bottom: 34rpx;
+}
+
+.myinfo-box{
+padding: 18rpx;
+}
+
+.myinfo-item .common-input{
+float: left;
+height: 65rpx;
+line-height: 65rpx;
+width: 340rpx;
+
+}
+
+.myinfo-item text{
+  float: left;
+  
+}
+
+.address{
+width: 494rpx;
+position: relative;
+}
+
+
+.maplocation{
+  position: absolute;
+  right:-160rpx;
+  top:20rpx;
+  width: 143rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  font-size: 20rpx;
+  background: #9999ff;
+  color: #fff;
+  padding: 0;
+}
+
+.photos{
+  width: 494rpx;
+position: relative;
+  border-bottom:none;
+}
+
+.maplocation2{
+  position: absolute;
+  right:0rpx;
+  top:20rpx;
+  width: 343rpx;
+  height: 40rpx;
+  line-height: 38rpx;
+  font-size: 20rpx;
+  background: #99CC00;
+  color: #fff;
+}
+
+.myinfo-submit{
+  width: 711rpx;
+  height: 92rpx;
+display: flex;
+}
+
+.myinfo-submit-yes{
+  height: 46rpx;
+line-height: 46rpx;
+width: 147rpx;
+  background: #FF0000;
+  border-radius: 20rpx;
+  color: #fff;
+font-size: 25rpx;
+margin-top: 23rpx;
+margin-left: 171rpx;
+}
+
+.myinfo-submit-no{
+  height: 46rpx;
+line-height: 46rpx;
+width: 147rpx;
+  background: #999999;
+  border-radius: 20rpx;
+  color: #fff;
+  font-size: 25rpx;
+  margin-top: 23rpx;
+  margin-right: 171rpx;
+}
+
+.myheader{
+  width: 100rpx;
+  height: 100rpx;
+   position: absolute;
+   right: -170rpx;
+   border-radius: 50%;
+  /* margin-left: 300rpx; */
+}

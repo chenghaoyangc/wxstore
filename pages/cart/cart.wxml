@@ -1,0 +1,126 @@
+<view class='cart'>
+
+  <block wx:if="{{result.length>0}}">
+    <view>{{result}}</view>
+  </block>
+
+  <block wx:else>
+
+   <!-- 图书 -->
+    <view class='cart-item' wx:for="{{bookDatas}}">
+      <view class='item-box'>
+
+        <!-- 左 -->
+        <view class='item-left'>
+          <image src='{{myhost}}{{item.pdatas.cover[0].coverurl}}'> </image>
+        </view>
+
+
+        <!-- 右 -->
+        <view class='item-right'>
+
+          <view class='item-title'>{{item.pdatas.bookname}}</view>
+          <view class='item-price'>￥{{item.pdatas.price}}</view>
+          <view class='item-option'>
+
+            <view class='opts-box'>
+              <view class='opt-sub' data-item='book' bindtap='sub' data-pid='{{item.pid}}'>-</view>
+              <view class='opt-input'>
+                <input value='{{item.count}}' />
+              </view>
+              <view class='opt-add' data-item='book' bindtap='add' data-pid='{{item.pid}}'>+</view>
+
+            </view>
+            <view class='del' bindtap='del' data-item='book' data-pid='{{item.pid}}'>
+              <image src='https://www.huachengzhubao.com/syweb10/static/ico/rubish.png'> </image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+
+    <!-- 22222 -->
+ <view class='cart-item' wx:for="{{musicDatas}}">
+      <view class='item-box'>
+
+        <!-- 左 -->
+        <view class='item-left'>
+          <image src='{{myhost}}{{item.pdatas.coverurl}}'> </image>
+        </view>
+
+
+        <!-- 右 -->
+        <view class='item-right'>
+
+          <view class='item-title'>{{item.pdatas.musicname}}</view>
+          <view class='item-price'>￥{{item.pdatas.price}}</view>
+          <view class='item-option'>
+
+            <view class='opts-box'>
+              <view class='opt-sub' bindtap='sub' data-item='music' data-pid='{{item.pid}}'>-</view>
+              <view class='opt-input'>
+                <input value='{{item.count}}' />
+              </view>
+              <view class='opt-add' bindtap='add' data-item='music' data-pid='{{item.pid}}'>+</view>
+
+            </view>
+            <view class='del'  bindtap='del' data-item='music' data-pid='{{item.pid}}'>
+              <image src='https://www.huachengzhubao.com/syweb10/static/ico/rubish.png'> </image>
+            </view>
+          </view>
+        </view>
+        <!-- 右 -->
+
+      </view>
+    </view>
+
+
+<!-- 333333 -->
+       
+  <view class='cart-item' wx:for="{{movieDatas}}">
+      <view class='item-box'>
+
+        <!-- 左 -->
+        <view class='item-left'>
+          <image src='{{myhost}}{{item.pdatas.coverurl}}'> </image>
+        </view>
+
+
+        <!-- 右 -->
+        <view class='item-right'>
+
+          <view class='item-title'>{{item.pdatas.moviename}}</view>
+          <view class='item-price'>￥{{item.pdatas.price}}</view>
+          <view class='item-option'>
+
+            <view class='opts-box'>
+              <view class='opt-sub' data-item='movie' bindtap='sub' data-pid='{{item.pid}}'>-</view>
+              <view class='opt-input'>
+                <input value='{{item.count}}' />
+              </view>
+              <view class='opt-add' data-item='movie' bindtap='add' data-pid='{{item.pid}}'>+</view>
+
+            </view>
+            <view class='del'  bindtap='del' data-item='movie' data-pid='{{item.pid}}'>
+              <image src='https://www.huachengzhubao.com/syweb10/static/ico/rubish.png'> </image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+
+  
+
+
+    <view class='cart-cash'>
+      <text class='cash-name'>店铺合计:</text>
+      <text class='cash-total'>￥{{totalPrice}}</text>
+      <text class='cash-pay' bindtap='gopay'>结算</text>
+
+    </view>
+
+  </block>
+</view>

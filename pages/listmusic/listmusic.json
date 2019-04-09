@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "光谷书城",
+  "usingComponents": {
+    "star": "../../component/star"
+  }
+}

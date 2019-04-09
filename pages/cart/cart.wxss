@@ -1,0 +1,115 @@
+page{
+  background-color: #EAEAEA;
+}
+
+.cart{
+  background-color: #fff;
+  margin-top:16rpx;
+  margin-bottom: 8rpx;
+}
+.item-box{
+  padding: 46rpx 46rpx 36rpx 46rpx;
+  display: flex;
+}
+
+.item-left image{
+  width: 140rpx;
+  height: 160rpx;
+}
+
+.item-right{
+  margin-left: 50rpx;
+}
+
+.item-title{
+  font-size: 26rpx;
+  color:#000;
+  height: 70rpx;
+  overflow:hidden;
+}
+
+.item-price{
+  font-size: 26rpx;
+  color:#FF5854;
+  margin-top: 10rpx;
+}
+
+.item-option{
+  width: 460rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.del image{
+  width: 35rpx;
+  height: 40rpx;
+}
+
+
+.opts-box{
+  display: flex;
+  width: 164rpx;
+  height: 40rpx;
+  border:#A2A2A2 1px solid;
+  border-radius:20rpx;
+   justify-content: space-between;
+  align-items:center;
+}
+
+.opt-sub,.opt-add {
+  width: 43rpx;
+  height: 40rpx;
+ line-height: 40rpx;
+  text-align:center;
+  border-right:#A2A2A2 1px solid;
+}
+
+.opt-add{
+border-right:none;
+ border-left:#A2A2A2 1px solid;
+
+}
+
+.opt-input input{
+  width: 72rpx;
+  height: 40rpx;
+  text-align: center;
+  font-size:26rpx;
+
+}
+
+.cart-item{
+  border-bottom:black 1px  dotted;
+}
+
+/* 结算 */
+.cart-cash{
+text-align: right;
+padding: 42rpx 0;
+padding-right: 46rpx;
+
+}
+
+.cash-name{
+  color: #999;
+  font-size: 23rpx;
+}
+
+.cash-total{
+  font-size:28rpx;
+  color: #fb4741;
+  font-weight:bold;
+}
+
+.cash-pay{
+  background-color: #fb4741;
+  display: inline-block;
+  width: 230rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  color: #fff;
+  line-height: 72rpx;
+  margin-left: 32rpx;
+  text-align: center;
+}

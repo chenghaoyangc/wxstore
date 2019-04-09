@@ -1,0 +1,59 @@
+<view class="myfavorit">
+
+  <view class="myfavorit-item">
+    <view class="myfavorit-box">
+      <view class="poster">
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+      </view>
+      <view class="content">
+        <view class="title">《岁月神偷》</view>
+        <view class="author">作者:金岐玟</view>
+        <view class="publicer">出版社:豆瓣 </view>
+        <view class="publi-date"> 发行日期:2014年2月1日 </view>
+        <view class="descript">能够握紧的就别放了,能够拥抱的就别拉扯,时间着急的冲刷着,剩下了什么,原谅走过的那些曲折,原来留下的都是真的,纵然似梦啊半醒着,笑着哭着都快活</view>
+        <view class="price"> ￥23.58</view>
+        <view class='comment'>
+          <view class='stars'>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star-gray.png"></image>
+          </view>
+          <view class='comment-counts'>158条评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+<view class="myfavorit-item">
+    <view class="myfavorit-box">
+      <view class="poster">
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/hotsale_194x194.jpg"></image>
+      </view>
+      <view class="content">
+        <view class="title">《岁月神偷》</view>
+        <view class="author">作者:金岐玟</view>
+        <view class="publicer">出版社:豆瓣 </view>
+        <view class="publi-date"> 发行日期:2014年2月1日 </view>
+        <view class="descript">谁让，时间是让人猝不及防的东西，晴时有风阴有时雨，争不过朝夕，又念着往昔，偷走了青丝却留住一个你，岁月是一场有去无回的旅行，好的坏的都是风景</view>
+        <view class="price"> ￥99.58</view>
+        <view class='comment'>
+          <view class='stars'>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+            <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          </view>
+          <view class='comment-counts'>158条评论</view>
+        </view>
+      </view>
+
+    </view>
+
+
+
+  </view>
+
+</view>

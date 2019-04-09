@@ -1,0 +1,40 @@
+.search .search-music{
+  background: #DEF2FC;
+}
+
+.class-music{
+  width: 730rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20rpx;
+}
+
+.class-music view{
+  font-size: 28rpx;
+  color: #4f4f4f;
+  border: #d7d7d7 1px solid;
+  border-radius: 50rpx;
+  padding: 2rpx 10rpx;
+  margin-top: 25rpx;
+  margin-left:10rpx;
+}
+
+.class-music .active{
+  color: red;
+  border:  red 1px solid;
+}
+.music-list .movie-poster{
+ margin-right:30rpx; 
+ margin-top: 20rpx;
+}
+.music-list .movie-poster image{
+  width: 120rpx;
+  height: 120rpx;
+
+}
+
+.music-list .movie-item:nth-child(2n+1){
+  background: #eeeeee;
+}
+

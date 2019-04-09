@@ -1,0 +1,281 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+
+/* 畅销书 */
+.hostsale-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hostsale-item {
+  width: 224rpx;
+  height: 345rpx;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 14rpx;
+  text-align: center;
+}
+
+.hostsale-item .hostsale-item-img {
+  margin-top: 16rpx;
+}
+
+.hostsale-item .hostsale-item-img image {
+  width: 194rpx;
+  height: 194rpx;
+}
+
+.hostsale-item .hostsale-item-title {
+  font-size: 24rpx;
+  color: #484848;
+}
+
+.hostsale-item .hostsale-item-price {
+  color: #e12616;
+  font-size: 24rpx;
+}
+
+.hostsale-item .hostsale-item-price text {
+  font-size: 32rpx;
+}
+
+/* 五星 */
+
+.star-red-25{
+width: 24rpx;
+height: 24rpx;
+margin-left: 2rpx;
+}
+
+/* 浮动 */
+
+.fl{
+  float:left;
+}
+
+.fr{
+  float:right;
+}
+
+.clear{
+  clear: both;
+}
+
+
+/* 搜索 */
+.search .search-box {
+  width: 730rpx;
+  height: 57rpx;
+  background-color: #ffb;
+  margin: 0 auto;
+  border-radius: 100rpx;
+  display: flex;
+  align-items: center;
+}
+
+.search .search-box .ico image {
+  width: 27rpx;
+  height: 27rpx;
+  margin-left: 20rpx;
+}
+
+.search .search-box .search-text {
+  color: #b2b1b1;
+  font-size: 25rpx;
+  margin-left: 15rpx;
+}
+
+/* 光谷书城  listbook listmovie*/
+.move-item{
+  border-top:#e4e4e4 1px solid;
+}
+
+.movie-box{
+  padding: 40rpx 30rpx;
+  display: flex;
+}
+
+.movie-poster image{
+  width: 175rpx;
+  height: 228rpx;
+}
+
+.movie-info{
+  font-size: 23rpx;
+  color: #666;
+  margin-left: 20rpx;
+}
+
+.p-title{
+font-size: 28rpx;
+color: #000;
+padding-bottom: 10rpx;
+}
+
+.p-price{
+   color: #ff0000;
+   font-size: 24rpx;
+}
+
+.p-price text{
+  font-size:30rpx;
+}
+
+.p-comment{
+  display: flex;
+  
+}
+.p-comment image{
+  width: 24rpx;
+height: 24rpx;
+margin-left: 2rpx;
+}
+.p-comment .counts{
+  margin-left: 20rpx;
+  color: #A7A7A7;
+  font-size: 20rpx;
+}
+
+/* 购买栏 detailmovie detailbook*/
+/* 底部 */
+.footer{
+  background: #fff;
+  height: 100rpx;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  border-top: #eaeaea 1px solid;
+ 
+}
+
+.footer .addtocart{
+width: 230rpx;
+height: 100rpx;
+background: #e53e30;
+color: #fff;
+font-size: 30rpx;
+text-align: center;
+line-height: 100rpx;
+margin-top: -98rpx;
+}
+
+.footer .bynow{
+width: 230rpx;
+height: 100rpx;
+background: #FFB350;
+color: #fff;
+font-size: 30rpx;
+text-align: center;
+line-height: 100rpx;
+margin-top: -98rpx;
+}
+
+.hsc{
+  display: flex;
+  width: 290rpx;
+  text-align: center;
+  height: 100rpx;
+}
+
+
+.hsc view{
+  width: 96rpx;
+  border-right: #ccc 1rpx solid;
+}
+
+.hsc-home-img{
+ height: 50rpx;
+ padding-top: 10rpx;
+}
+.hsc-home-img image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.hsc-home-text{
+font-size: 20rpx;
+color: #666;
+}
+
+.hsc-share{
+  position: relative;
+}
+.hsc-share button{
+  width: 96rpx;
+  height: 100rpx;
+  border: none;
+  background: #fff;
+  outline: none;
+}
+
+.hsc-share button::after{
+  border: none;
+}
+
+.share-ico{
+  position: absolute;
+  left:0rpx;
+  top:11rpx;
+}
+
+.share-ico image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.share-text{
+  position: absolute;
+  font-size: 20rpx;
+color: #666;
+top:60rpx;
+
+width: 96rpx;
+text-align: center;
+}
+.hsc-cart{
+  position: relative;
+}
+
+.hsc-cart-img {
+  height: 50rpx;
+  padding-top: 10rpx;
+}
+
+.hsc-cart-img image{
+width: 50rpx;
+height: 50rpx;
+}
+
+.hsc-cart-text{
+  font-size: 20rpx;
+  color: #666;
+}
+
+.hsc-cart .hsc-cart-count{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  background: #ff4444;
+  right: 10rpx;
+  top:5rpx;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23rpx;
+  color: #FFF;
+
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 30rpx;
+}
+
+/* 相关信息 */

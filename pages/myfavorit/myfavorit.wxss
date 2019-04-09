@@ -1,0 +1,61 @@
+page{
+  background: #f1f1f1;
+}
+
+.myfavorit-item{
+background: #fff;
+margin-bottom: 40rpx;
+}
+
+.myfavorit-box{
+padding: 43rpx;
+display: flex;
+justify-content: space-between;
+
+}
+
+.poster image{
+  width: 175rpx;
+  height: 230rpx;
+}
+
+.content{
+  width: 450rpx;
+  font-size: 23rpx;
+  color: #666;
+}
+
+.title{
+  font-size: 28rpx;
+  color: #000;
+  margin-bottom: 10rpx;
+  height: 32rpx;
+  overflow: hidden;
+}
+
+
+
+.descript{
+   font-size: 18rpx;
+}
+
+.price{
+  color: #e43728;
+  font-size:30rpx;
+  margin-top: 10rpx;
+}
+
+.stars image{
+    width: 24rpx;
+  height: 24rpx;
+  margin: 0 2rpx;
+}
+
+.comment{
+  display: flex;
+}
+
+.comment-counts{
+  color: #a7a7a7;
+  margin-left: 8rpx;
+}

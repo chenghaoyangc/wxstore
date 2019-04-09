@@ -1,0 +1,179 @@
+<view class='detailmusic'>
+
+  <!-- 信息 -->
+  <view class='music-info'>
+    <view class='comm-box'>
+      <view class='comm-info-name'>相关信息</view>
+    </view>
+
+    <view class='player'>
+
+      <view class='poster' style='background:url("{{myhost}}{{datas.coverurl}}") no-repeat;background-size:contain;' >
+        <image src="../../static/ico/play_btn.png" bindtap="play" wx:if="{{!isplay}}"></image>
+        <image src="../../static/ico/post_btn.png" bindtap="pause" wx:if="{{isplay}}"></image>
+      </view>
+
+      <text class='music-name'>{{datas.musicname}}</text>
+      <text class='music-singer'>{{datas.singer}}</text>
+      <text class='music-time'>{{dt}}</text>
+    </view>
+
+
+    <view class='commonstyle author'>歌名：
+      <text class="viewproduct">{{datas.musicname}}</text>
+    </view>
+    <view class='commonstyle public'>歌手：
+      <text class="viewproduct">{{datas.singer}}</text> 作曲：
+      <text class="viewproduct">{{datas.writer}}</text> 作词：
+      <text class="viewproduct">{{datas.composer}}</text>
+    </view>
+    <view class='commonstyle class'>类型： <text class="viewproduct">{{datas.cname}}</text>
+    </view>
+
+
+
+  </view>
+
+  <!-- 价格 -->
+<view class='title-box'>
+      <view class='title-name title-n'>单片会员价</view>
+     <view class='p-price'>￥<text>{{datas.print_int}}</text>.{{datas.print_dec}}</view>
+    </view>
+    <!-- 按钮 -->
+    <view class='box-movie'>
+      <view class='play'>
+      <image src="../../static/ico/play.png" bindtap="play"></image>
+      播放</view>
+      <view class='暂停'>
+      <image src="../../static/ico/play_gray.png" bindtap="pause"></image>暂停</view>
+        <view class='stop'>
+        <image src="../../static/ico/play_gray.png" bindtap="stop"></image>停止</view>
+      <view class='favorite'>
+      <image src="../../static/ico/collect.png"></image>收藏</view>
+    </view>
+
+ 
+
+  <!-- 歌词 -->
+   <view class='comm-box'>
+
+      <view class='view-title'>
+        <view class='title-name'>{{datas.musicname}}</view>
+      </view>
+      <view class='view-body'>
+      {{datas.words}}
+      </view>
+    </view>
+
+  <!-- 评论 -->
+<view class='com-comment'>
+
+  <view class='comm-box'>
+    <view class='comm-info-name .yellow-line'>商品评论</view>
+  </view>
+
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>周***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='comment-conent'>这一路上走走停停,顺着少年漂流的痕迹,迈出车站的前一刻,竟有些犹豫,不禁笑这近乡情怯,仍无可避免,而长野的天,依旧那么暖,风吹起了从前</view>
+
+  </view>
+  <!-- 2222 -->
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>王***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class='comment-conent'>从前初识这世间,万般流连,看着天边似在眼前,也甘愿赴汤蹈火去走它一遍,如今走过这世间,万般流连,翻过岁月不同侧脸,措不及防闯入你的笑颜</view>
+
+  </view>
+
+  <!-- 333 -->
+  <view class='comment-item'>
+    <view class='comment-author'>
+
+      <view class='comment-header'>
+        <image src="http://www.huachengzhubao.com/syweb10/static/images/header.png"></image>
+      </view>
+      <view class='author-stars'>
+        <view class='author-name'>张***（匿名）</view>
+        <view class='stars5 comment-stars'>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+          <image class='star-red-25' src="http://www.huachengzhubao.com/syweb10/static/ico/star.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class='comment-conent'>我曾难自拔于世界之大,也沉溺于其中梦话,不得真假 不做挣扎 ，不惧笑话,我曾将青春翻涌成她,也曾指尖弹出盛夏,心之所动， 且就随缘去吧,逆着光行走 ，任风吹雨打,短短的路走走停停,也有了几分的距离,不知抚摸的是故事 ，还是段心情,也许期待的不过是， 与时间为敌,再次看到你,微凉晨光里,笑的很甜蜜</view>
+  </view>
+
+<!-- /// -->
+  <!-- 垫高底部 -->
+  <view style='height:100rpx;'></view>
+
+  <!-- 底部 -->
+  <view class='footer'>
+    <view class='hsc f1'>
+      <view class='hsc-home' bindtap='goHome'>
+        <view class='hsc-home-img'>
+          <image src='../../static/ico/tabbar_home_gray.png'></image>
+        </view>
+        <view class='hsc-home-text'>首页</view>
+      </view>
+
+      <view class='hsc-share'>
+        <button></button>
+        <view class='share-ico'>
+          <image src='../../static/ico/share.png'></image>
+        </view>
+        <view class='share-text'>分享</view>
+
+      </view>
+
+      <view class='hsc-cart' bindtap='gocart'>
+      <view class='hsc-cart-img'>
+          <image src='../../static/ico/tabbar_cart_gray.png'></image>
+        </view>
+        <view class='hsc-cart-text' >购物车</view>
+        <view class='hsc-cart-count'>{{cartCounts}}</view>
+      </view>
+    </view>
+
+    <view class='addtocart fr' bindtap="add2cart">购物车</view>
+
+    <view class='bynow fr'>立即购买</view>
+  </view>
+</view>
+  <!-- 底部 -->
+
+</view>
